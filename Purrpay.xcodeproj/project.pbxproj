@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA10F7E62A8B82640026F061 /* PurrpayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F7E52A8B82640026F061 /* PurrpayApp.swift */; };
+		DA10F7EA2A8B82650026F061 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA10F7E92A8B82650026F061 /* Assets.xcassets */; };
+		DA10F7ED2A8B82650026F061 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA10F7EC2A8B82650026F061 /* Preview Assets.xcassets */; };
+		DA10F7F72A8BFF500026F061 /* InputActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F7F62A8BFF500026F061 /* InputActivityView.swift */; };
+		DA10F7F92A8C00910026F061 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F7F82A8C00910026F061 /* SplashScreenView.swift */; };
+		DA10F7FD2A8C00FB0026F061 /* ResultPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F7FC2A8C00FB0026F061 /* ResultPageView.swift */; };
+		DA10F7FF2A8C022C0026F061 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F7FE2A8C022C0026F061 /* ContentView.swift */; };
+		DA10F8022A8C05160026F061 /* AddBillCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F8012A8C05160026F061 /* AddBillCalculation.swift */; };
+		DA10F8062A8CE06B0026F061 /* CreateBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F8052A8CE06B0026F061 /* CreateBillView.swift */; };
+		DA10F8082A8F57D70026F061 /* ModelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F8072A8F57D70026F061 /* ModelApp.swift */; };
+		DA7F82E82A935BFA00B5990B /* ButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7F82E72A935BFA00B5990B /* ButtonComponent.swift */; };
+		DA7F82EA2A935C0700B5990B /* ProgressComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7F82E92A935C0700B5990B /* ProgressComponent.swift */; };
+		DA86BBB42A9272B1002F19E3 /* NavigationBarColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA86BBB32A9272B1002F19E3 /* NavigationBarColor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA10F7E22A8B82640026F061 /* Purrpay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Purrpay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA10F7E52A8B82640026F061 /* PurrpayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurrpayApp.swift; sourceTree = "<group>"; };
+		DA10F7E92A8B82650026F061 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA10F7EC2A8B82650026F061 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA10F7F62A8BFF500026F061 /* InputActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputActivityView.swift; sourceTree = "<group>"; };
+		DA10F7F82A8C00910026F061 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		DA10F7FC2A8C00FB0026F061 /* ResultPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultPageView.swift; sourceTree = "<group>"; };
+		DA10F7FE2A8C022C0026F061 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DA10F8012A8C05160026F061 /* AddBillCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBillCalculation.swift; sourceTree = "<group>"; };
+		DA10F8052A8CE06B0026F061 /* CreateBillView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBillView.swift; sourceTree = "<group>"; };
+		DA10F8072A8F57D70026F061 /* ModelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelApp.swift; sourceTree = "<group>"; };
+		DA7F82E72A935BFA00B5990B /* ButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonComponent.swift; sourceTree = "<group>"; };
+		DA7F82E92A935C0700B5990B /* ProgressComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressComponent.swift; sourceTree = "<group>"; };
+		DA86BBB32A9272B1002F19E3 /* NavigationBarColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarColor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA10F7DF2A8B82640026F061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA10F7D92A8B82640026F061 = {
+			isa = PBXGroup;
+			children = (
+				DA10F7E42A8B82640026F061 /* Purrpay */,
+				DA10F7E32A8B82640026F061 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA10F7E32A8B82640026F061 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA10F7E22A8B82640026F061 /* Purrpay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA10F7E42A8B82640026F061 /* Purrpay */ = {
+			isa = PBXGroup;
+			children = (
+				DA10F7E52A8B82640026F061 /* PurrpayApp.swift */,
+				DA10F8002A8C03500026F061 /* Extension */,
+				DA10F7F52A8B82910026F061 /* View Model */,
+				DA10F7F42A8B82880026F061 /* View */,
+				DA10F7F32A8B82700026F061 /* Model */,
+				DA10F7E92A8B82650026F061 /* Assets.xcassets */,
+				DA10F7EB2A8B82650026F061 /* Preview Content */,
+			);
+			path = Purrpay;
+			sourceTree = "<group>";
+		};
+		DA10F7EB2A8B82650026F061 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DA10F7EC2A8B82650026F061 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DA10F7F32A8B82700026F061 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DA10F7FE2A8C022C0026F061 /* ContentView.swift */,
+				DA10F8072A8F57D70026F061 /* ModelApp.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DA10F7F42A8B82880026F061 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA7F82E62A935BD800B5990B /* Component */,
+				DA10F7F82A8C00910026F061 /* SplashScreenView.swift */,
+				DA10F7F62A8BFF500026F061 /* InputActivityView.swift */,
+				DA10F8052A8CE06B0026F061 /* CreateBillView.swift */,
+				DA10F7FC2A8C00FB0026F061 /* ResultPageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DA10F7F52A8B82910026F061 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				DA10F8012A8C05160026F061 /* AddBillCalculation.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		DA10F8002A8C03500026F061 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DA86BBB32A9272B1002F19E3 /* NavigationBarColor.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DA7F82E62A935BD800B5990B /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				DA7F82E72A935BFA00B5990B /* ButtonComponent.swift */,
+				DA7F82E92A935C0700B5990B /* ProgressComponent.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA10F7E12A8B82640026F061 /* Purrpay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA10F7F02A8B82650026F061 /* Build configuration list for PBXNativeTarget "Purrpay" */;
+			buildPhases = (
+				DA10F7DE2A8B82640026F061 /* Sources */,
+				DA10F7DF2A8B82640026F061 /* Frameworks */,
+				DA10F7E02A8B82640026F061 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Purrpay;
+			productName = Purrpay;
+			productReference = DA10F7E22A8B82640026F061 /* Purrpay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA10F7DA2A8B82640026F061 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DA10F7E12A8B82640026F061 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DA10F7DD2A8B82640026F061 /* Build configuration list for PBXProject "Purrpay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA10F7D92A8B82640026F061;
+			productRefGroup = DA10F7E32A8B82640026F061 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA10F7E12A8B82640026F061 /* Purrpay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA10F7E02A8B82640026F061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA10F7ED2A8B82650026F061 /* Preview Assets.xcassets in Resources */,
+				DA10F7EA2A8B82650026F061 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA10F7DE2A8B82640026F061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA10F8082A8F57D70026F061 /* ModelApp.swift in Sources */,
+				DA10F7E62A8B82640026F061 /* PurrpayApp.swift in Sources */,
+				DA10F7FF2A8C022C0026F061 /* ContentView.swift in Sources */,
+				DA10F7FD2A8C00FB0026F061 /* ResultPageView.swift in Sources */,
+				DA86BBB42A9272B1002F19E3 /* NavigationBarColor.swift in Sources */,
+				DA7F82E82A935BFA00B5990B /* ButtonComponent.swift in Sources */,
+				DA7F82EA2A935C0700B5990B /* ProgressComponent.swift in Sources */,
+				DA10F8022A8C05160026F061 /* AddBillCalculation.swift in Sources */,
+				DA10F7F72A8BFF500026F061 /* InputActivityView.swift in Sources */,
+				DA10F7F92A8C00910026F061 /* SplashScreenView.swift in Sources */,
+				DA10F8062A8CE06B0026F061 /* CreateBillView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DA10F7EE2A8B82650026F061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA10F7EF2A8B82650026F061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA10F7F12A8B82650026F061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Purrpay/Preview Content\"";
+				DEVELOPMENT_TEAM = FAV732MUB5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ilb.Purrpay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA10F7F22A8B82650026F061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Purrpay/Preview Content\"";
+				DEVELOPMENT_TEAM = FAV732MUB5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ilb.Purrpay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA10F7DD2A8B82640026F061 /* Build configuration list for PBXProject "Purrpay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA10F7EE2A8B82650026F061 /* Debug */,
+				DA10F7EF2A8B82650026F061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA10F7F02A8B82650026F061 /* Build configuration list for PBXNativeTarget "Purrpay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA10F7F12A8B82650026F061 /* Debug */,
+				DA10F7F22A8B82650026F061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA10F7DA2A8B82640026F061 /* Project object */;
+}
