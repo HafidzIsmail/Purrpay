@@ -5,7 +5,7 @@
 //  Created by Hafidz Ismail Hidayat on 18/08/23.
 //
 
-import SwiftUI
+import Foundation
 
 struct listofBill {
     var itemDescription: [String] = []

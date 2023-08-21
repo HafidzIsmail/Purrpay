@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-class AddBillCalculation {
+class CreateBillViewModel {
     @Published var description = ""
     @Published var price = ""
     @State private var isAddingItem = false
@@ -17,8 +17,6 @@ class AddBillCalculation {
         if description != "" {
             bills.itemDescription.append(description)
             description = ""
-            price = ""
-
         }
         isAddingItem = false
     }
@@ -27,7 +25,6 @@ class AddBillCalculation {
         if price != "" {
             bills.itemPrice.append(Int(price)!)
             price = ""
-            description = ""
         }
         isAddingItem = false
     }

@@ -31,7 +31,7 @@ struct SplashScreenView: View {
                         RoundedRectangle(cornerRadius:5)
                             .fill(Color("Button"))
                             .frame(width: drawingWidth ? 330 : 0, alignment: .leading)
-                            .animation(.easeInOut(duration: 2.8).repeatForever(autoreverses: false))
+                            .animation(Animation.easeInOut(duration: 2.8).repeatForever(autoreverses: false), value: drawingWidth)
                     }
                     .padding(.leading, 20)
                     .frame(height: 12)
@@ -55,7 +55,6 @@ struct SplashScreenView: View {
         .ignoresSafeArea()
     }
 
-    
     //Animation Function
     func nekoRun() {
         var index = 1

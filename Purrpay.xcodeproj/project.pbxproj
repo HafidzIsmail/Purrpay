@@ -13,13 +13,12 @@
 		DA10F7F72A8BFF500026F061 /* InputActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F7F62A8BFF500026F061 /* InputActivityView.swift */; };
 		DA10F7F92A8C00910026F061 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F7F82A8C00910026F061 /* SplashScreenView.swift */; };
 		DA10F7FD2A8C00FB0026F061 /* ResultPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F7FC2A8C00FB0026F061 /* ResultPageView.swift */; };
-		DA10F7FF2A8C022C0026F061 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F7FE2A8C022C0026F061 /* ContentView.swift */; };
-		DA10F8022A8C05160026F061 /* AddBillCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F8012A8C05160026F061 /* AddBillCalculation.swift */; };
+		DA10F8022A8C05160026F061 /* CreateBillViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F8012A8C05160026F061 /* CreateBillViewModel.swift */; };
 		DA10F8062A8CE06B0026F061 /* CreateBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F8052A8CE06B0026F061 /* CreateBillView.swift */; };
-		DA10F8082A8F57D70026F061 /* ModelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F8072A8F57D70026F061 /* ModelApp.swift */; };
+		DA10F8082A8F57D70026F061 /* UsersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10F8072A8F57D70026F061 /* UsersModel.swift */; };
 		DA7F82E82A935BFA00B5990B /* ButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7F82E72A935BFA00B5990B /* ButtonComponent.swift */; };
 		DA7F82EA2A935C0700B5990B /* ProgressComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7F82E92A935C0700B5990B /* ProgressComponent.swift */; };
-		DA86BBB42A9272B1002F19E3 /* NavigationBarColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA86BBB32A9272B1002F19E3 /* NavigationBarColor.swift */; };
+		DA86BBB42A9272B1002F19E3 /* NavigationBarColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA86BBB32A9272B1002F19E3 /* NavigationBarColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,13 +29,12 @@
 		DA10F7F62A8BFF500026F061 /* InputActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputActivityView.swift; sourceTree = "<group>"; };
 		DA10F7F82A8C00910026F061 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		DA10F7FC2A8C00FB0026F061 /* ResultPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultPageView.swift; sourceTree = "<group>"; };
-		DA10F7FE2A8C022C0026F061 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DA10F8012A8C05160026F061 /* AddBillCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBillCalculation.swift; sourceTree = "<group>"; };
+		DA10F8012A8C05160026F061 /* CreateBillViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateBillViewModel.swift; sourceTree = "<group>"; };
 		DA10F8052A8CE06B0026F061 /* CreateBillView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBillView.swift; sourceTree = "<group>"; };
-		DA10F8072A8F57D70026F061 /* ModelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelApp.swift; sourceTree = "<group>"; };
+		DA10F8072A8F57D70026F061 /* UsersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersModel.swift; sourceTree = "<group>"; };
 		DA7F82E72A935BFA00B5990B /* ButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonComponent.swift; sourceTree = "<group>"; };
 		DA7F82E92A935C0700B5990B /* ProgressComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressComponent.swift; sourceTree = "<group>"; };
-		DA86BBB32A9272B1002F19E3 /* NavigationBarColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarColor.swift; sourceTree = "<group>"; };
+		DA86BBB32A9272B1002F19E3 /* NavigationBarColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NavigationBarColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				DA10F7E52A8B82640026F061 /* PurrpayApp.swift */,
-				DA10F8002A8C03500026F061 /* Extension */,
+				DA10F8002A8C03500026F061 /* Helper */,
 				DA10F7F52A8B82910026F061 /* View Model */,
 				DA10F7F42A8B82880026F061 /* View */,
 				DA10F7F32A8B82700026F061 /* Model */,
@@ -91,8 +89,7 @@
 		DA10F7F32A8B82700026F061 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				DA10F7FE2A8C022C0026F061 /* ContentView.swift */,
-				DA10F8072A8F57D70026F061 /* ModelApp.swift */,
+				DA10F8072A8F57D70026F061 /* UsersModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -112,17 +109,17 @@
 		DA10F7F52A8B82910026F061 /* View Model */ = {
 			isa = PBXGroup;
 			children = (
-				DA10F8012A8C05160026F061 /* AddBillCalculation.swift */,
+				DA10F8012A8C05160026F061 /* CreateBillViewModel.swift */,
 			);
 			path = "View Model";
 			sourceTree = "<group>";
 		};
-		DA10F8002A8C03500026F061 /* Extension */ = {
+		DA10F8002A8C03500026F061 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				DA86BBB32A9272B1002F19E3 /* NavigationBarColor.swift */,
+				DA86BBB32A9272B1002F19E3 /* NavigationBarColor+Extension.swift */,
 			);
-			path = Extension;
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		DA7F82E62A935BD800B5990B /* Component */ = {
@@ -204,14 +201,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA10F8082A8F57D70026F061 /* ModelApp.swift in Sources */,
+				DA10F8082A8F57D70026F061 /* UsersModel.swift in Sources */,
 				DA10F7E62A8B82640026F061 /* PurrpayApp.swift in Sources */,
-				DA10F7FF2A8C022C0026F061 /* ContentView.swift in Sources */,
 				DA10F7FD2A8C00FB0026F061 /* ResultPageView.swift in Sources */,
-				DA86BBB42A9272B1002F19E3 /* NavigationBarColor.swift in Sources */,
+				DA86BBB42A9272B1002F19E3 /* NavigationBarColor+Extension.swift in Sources */,
 				DA7F82E82A935BFA00B5990B /* ButtonComponent.swift in Sources */,
 				DA7F82EA2A935C0700B5990B /* ProgressComponent.swift in Sources */,
-				DA10F8022A8C05160026F061 /* AddBillCalculation.swift in Sources */,
+				DA10F8022A8C05160026F061 /* CreateBillViewModel.swift in Sources */,
 				DA10F7F72A8BFF500026F061 /* InputActivityView.swift in Sources */,
 				DA10F7F92A8C00910026F061 /* SplashScreenView.swift in Sources */,
 				DA10F8062A8CE06B0026F061 /* CreateBillView.swift in Sources */,

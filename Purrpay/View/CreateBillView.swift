@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CreateBillView: View {
     @State private var isAddingItem = false
-    @State var calculation = AddBillCalculation()
+    @State var calculation = CreateBillViewModel()
     @State var bills = listofBill()
     @Binding var users : userActivity
     

@@ -11,7 +11,7 @@ struct ResultPageView: View {
     @State private var isExpanded = false
     @State private var showAlert = false
     @State var navigateNext = false
-    @Binding var calculation : AddBillCalculation
+    @Binding var calculation : CreateBillViewModel
     @Binding var bills : listofBill
     @Binding var users : userActivity
     
@@ -19,6 +19,8 @@ struct ResultPageView: View {
         NavigationView {
             ZStack {
                 let grandTotal = calculation.bills.itemPrice.reduce(0,+)
+                let totalEach = grandTotal / (Int(users.totalMembers) ?? 0)!
+                
                 VStack (alignment: .leading){
                     VStack(alignment: .leading, spacing: 20){
                         Text("\(users.activityName)'s Expenses")
@@ -43,7 +45,6 @@ struct ResultPageView: View {
                         }
                         .font(.title3)
                         .fontWeight(.semibold)
-
                     }
                     .foregroundColor(Color("Button"))
 
@@ -52,7 +53,6 @@ struct ResultPageView: View {
                             .font(.title2)
                             .fontWeight(.semibold)
                             .foregroundColor(Color("Button"))
-                        let totalEach = grandTotal / (Int(users.totalMembers) ?? 0)!
                         Text("Rp\(totalEach)")
                             .font(.title)
                             .fontWeight(.bold)
@@ -64,45 +64,37 @@ struct ResultPageView: View {
                             } label: {
                                 Image(systemName: "chevron.down")
                                     .resizable()
-                                    .frame(width: 22.0, height: 13.0)
+                                    .frame(width: 20, height: 10)
                                     .rotationEffect(isExpanded ? .degrees(180) : .zero)
                                     .foregroundColor(Color("Button"))
                             }
                             if isExpanded {
                                 HStack{
-                                    Spacer()
-                                        .frame(width: 10.0)
                                     List {
-                                        ForEach(0..<bills.itemDescription.count, id: \.self) { item in
-                                            Text("\(bills.itemDescription[item]) \t \t \t \t")
+                                        ForEach(0..<calculation.bills.itemDescription.count, id: \.self) { item in
+                                            Text("\(calculation.bills.itemDescription[item]) \t \t \t \t")
                                         }
                                     }
                                     List{
-                                        ForEach(0..<bills.itemPrice.count, id: \.self) { item in
-                                            Text("\t Rp\((bills.itemPrice[item])/(Int(users.totalMembers) ?? 0)!)")
+                                        ForEach(0..<calculation.bills.itemPrice.count, id: \.self) { item in
+                                            Text("\t Rp\((calculation.bills.itemPrice[item])/(Int(users.totalMembers) ?? 0)!)")
                                         }
                                     }
                                 }
                             }
                         }
                         .frame(maxWidth: .infinity)
-                        .frame(maxHeight: .infinity)
+                        Spacer()
                     }
                     .padding(.top, 40)
                 }
             }
             .ignoresSafeArea()
             .padding(.horizontal, 10)
-            .padding(.top, 5.0)
+            .padding(.vertical, 10)
             .background(Color("Background"))
         }
         .navigationTitle("Amount To Pay")
         .navigationBarTitleDisplayMode(.inline)
     }
 }
-
-//struct ResultPageView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ResultPageView()
-//    }
-//}
