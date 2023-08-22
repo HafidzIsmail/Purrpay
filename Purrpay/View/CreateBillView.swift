@@ -18,17 +18,16 @@ struct CreateBillView: View {
             ZStack {
                 VStack {
                     ProgressComponent(currentProgress: 2)
-
                     HStack{
                         Text("Expenses")
                             .foregroundColor(Color("Button"))
-                            .multilineTextAlignment(.leading)
                             .font(.title3)
                             .fontWeight(.bold)
                             .padding()
                         Spacer()
                     }
                     
+                    //List of Bills Added
                     HStack{
                         List {
                             ForEach(0..<calculation.bills.itemDescription.count, id: \.self) { item in
@@ -43,10 +42,12 @@ struct CreateBillView: View {
                         }
                     }
                     
+                    //Calculate Button
                     NavigationLink(destination: ResultPageView(calculation: $calculation, bills: $bills, users: $users),label: {
                         ButtonComponents(titleButton: "Calculate")
                     })
                     
+                    //Form add bill
                     if isAddingItem == true {
                         Form {
                             Section(header: Text("Input Expenses")) {

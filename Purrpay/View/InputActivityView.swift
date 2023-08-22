@@ -15,16 +15,12 @@ struct InputActivityView: View {
             ZStack {
                 VStack {
                     ProgressComponent(currentProgress: 1)
-                    
                     Spacer()
-                    
                     Image("Logo")
                         .resizable()
                         .scaledToFit()
                         .frame(width: 210.0)
-                    
                     Spacer()
-                    
                     VStack (spacing: 20) {
                         VStack(alignment: .leading, spacing: 10){
                             Text("Activity Name")
@@ -57,10 +53,10 @@ struct InputActivityView: View {
                             }
                         }
                     .disableAutocorrection(true)
-                    
                     Spacer()
                     
-                    NavigationLink(destination: CreateBillView(users: $users), label: {
+                    //Continue Button
+                    NavigationLink(destination: CreateBillView(users: $users),label: {
                         ButtonComponents(titleButton: "Continue")
                     })
                 }

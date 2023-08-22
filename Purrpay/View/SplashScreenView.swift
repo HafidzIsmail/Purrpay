@@ -55,7 +55,7 @@ struct SplashScreenView: View {
         .ignoresSafeArea()
     }
 
-    //Animation Function
+    //function for Animation Neko
     func nekoRun() {
         var index = 1
         _ = Timer.scheduledTimer(withTimeInterval: 0.68, repeats: true) { (Timer) in

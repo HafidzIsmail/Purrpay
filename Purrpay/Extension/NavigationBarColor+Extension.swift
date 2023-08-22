@@ -6,19 +6,7 @@
 //
 
 import Foundation
-
 import SwiftUI
-
-extension View {
-    
-    func setNavbarColor(color: Color){
-        
-    }
-    
-    func setNavbarTitleColor(color: Color){
-        
-    }
-}
 
 //NavigationController Helpers
 extension UINavigationController{

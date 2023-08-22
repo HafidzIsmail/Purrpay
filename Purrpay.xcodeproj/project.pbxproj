@@ -68,9 +68,10 @@
 			isa = PBXGroup;
 			children = (
 				DA10F7E52A8B82640026F061 /* PurrpayApp.swift */,
-				DA10F8002A8C03500026F061 /* Helper */,
-				DA10F7F52A8B82910026F061 /* View Model */,
+				DA7F82E62A935BD800B5990B /* Component */,
+				DA10F8002A8C03500026F061 /* Extension */,
 				DA10F7F42A8B82880026F061 /* View */,
+				DA10F7F52A8B82910026F061 /* View Model */,
 				DA10F7F32A8B82700026F061 /* Model */,
 				DA10F7E92A8B82650026F061 /* Assets.xcassets */,
 				DA10F7EB2A8B82650026F061 /* Preview Content */,
@@ -97,7 +98,6 @@
 		DA10F7F42A8B82880026F061 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				DA7F82E62A935BD800B5990B /* Component */,
 				DA10F7F82A8C00910026F061 /* SplashScreenView.swift */,
 				DA10F7F62A8BFF500026F061 /* InputActivityView.swift */,
 				DA10F8052A8CE06B0026F061 /* CreateBillView.swift */,
@@ -114,12 +114,12 @@
 			path = "View Model";
 			sourceTree = "<group>";
 		};
-		DA10F8002A8C03500026F061 /* Helper */ = {
+		DA10F8002A8C03500026F061 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
 				DA86BBB32A9272B1002F19E3 /* NavigationBarColor+Extension.swift */,
 			);
-			path = Helper;
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		DA7F82E62A935BD800B5990B /* Component */ = {
